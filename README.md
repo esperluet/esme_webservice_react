@@ -15,6 +15,49 @@ Ce dépôt permet aux étudiants de :
 
 ---
 
+## 🧭 Étapes à suivre (installation et exécution)
+
+### 1. Cloner le projet
+
+**Avec HTTPS** :
+```bash
+git clone https://github.com/esperluet/esme_webservice_react.git
+```
+
+**Ou avec SSH** :
+```bash
+git clone git@github.com:esperluet/esme_webservice_react.git
+```
+
+Puis :
+```bash
+cd esme_webservice_react
+```
+
+### 2. Lancer l'application en mode développement
+```bash
+make dev
+```
+L'application sera accessible sur : [http://localhost:5173](http://localhost:5173)
+
+### 3. Arrêter l'environnement de développement
+```bash
+make stop
+```
+
+### 4. Lancer l'application en mode production (via Nginx)
+```bash
+make start
+```
+Accessible sur : [http://localhost:3000](http://localhost:3000)
+
+### 5. Nettoyer les conteneurs et images Docker
+```bash
+make clean
+```
+
+---
+
 ## 📁 Structure du projet
 
 ```
@@ -113,5 +156,3 @@ Les étudiants sont invités à :
 - Préparer des variantes pour le déploiement CI/CD
 
 ---
-
-Prêt à coder et apprendre 🚀
